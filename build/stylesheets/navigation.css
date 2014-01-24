@@ -1,0 +1,152 @@
+/* line 3, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar .brand {
+  line-height: 27px;
+  color: #bbb;
+  text-shadow: 0 1px 0 black; }
+
+/* line 9, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar-inverse .navbar-inner {
+  border-bottom: 1px solid rgba(10, 13, 14, 0.8);
+  background: #11161a;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFiMjMyOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzExMTYxYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1b2329), color-stop(100%, #11161a));
+  background-image: -webkit-linear-gradient(top, #1b2329, #11161a);
+  background-image: -moz-linear-gradient(top, #1b2329, #11161a);
+  background-image: -o-linear-gradient(top, #1b2329, #11161a);
+  background-image: linear-gradient(top, #1b2329, #11161a);
+  border-left: 0;
+  border-right: 0; }
+
+/* line 16, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar.navbar-top {
+  margin-bottom: 0px; }
+  /* line 19, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+  .navbar.navbar-top .navbar-inner {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0; }
+
+/* line 24, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar-search {
+  margin-top: 10px; }
+  /* line 26, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+  .navbar-search .search-query {
+    height: 20px;
+    padding: 2px 10px; }
+    /* line 30, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+    .navbar-search .search-query.animated {
+      width: 100px;
+      -webkit-transition: width 0.3s;
+      -moz-transition: width 0.3s;
+      -o-transition: width 0.3s;
+      transition: width 0.3s; }
+      /* line 34, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+      .navbar-search .search-query.animated:focus, .navbar-search .search-query.animated .focused {
+        width: 200px; }
+  /* line 40, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+  .navbar-search i {
+    position: absolute;
+    right: 10px;
+    top: 5px; }
+
+/* line 47, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar-inverse .navbar-search .search-query, .navbar-inverse .navbar-search .search-query {
+  background: rgba(35, 43, 48, 0.83); }
+  /* line 51, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+  .navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused, .navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused {
+    padding: 2px 10px;
+    border: 1px solid transparent; }
+
+/* line 57, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar-inverse .nav {
+  margin-top: 10px; }
+
+/* line 62, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar-inverse .nav > li > a {
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  height: 20px;
+  line-height: 20px;
+  padding: 3px 10px;
+  margin-right: 10px; }
+  /* line 71, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+  .navbar-inverse .nav > li > a:hover {
+    background: rgba(0, 0, 0, 0.8); }
+/* line 76, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar-inverse .nav > li.active > a {
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15); }
+
+/* line 82, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.navbar .btn, .navbar .btn-group {
+  margin-top: -4px; }
+
+/* line 86, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+.menu-avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px; }
+
+/* line 93, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+body .hide-collapse-sidebar {
+  display: none; }
+
+/* line 81, /home/andrei/core-admin-release/core-admin/source/stylesheets/mixin_helpers.scss */
+body.dropdown-sidebar .main-content {
+  margin-left: 91px; }
+/* line 85, /home/andrei/core-admin-release/core-admin/source/stylesheets/mixin_helpers.scss */
+body.dropdown-sidebar .sidebar-background {
+  width: 90px; }
+  /* line 88, /home/andrei/core-admin-release/core-admin/source/stylesheets/mixin_helpers.scss */
+  body.dropdown-sidebar .sidebar-background .primary-sidebar-background {
+    width: 90px; }
+/* line 93, /home/andrei/core-admin-release/core-admin/source/stylesheets/mixin_helpers.scss */
+body.dropdown-sidebar .primary-sidebar {
+  width: 90px; }
+@media (max-width: 979px) {
+  /* line 98, /home/andrei/core-admin-release/core-admin/source/stylesheets/mixin_helpers.scss */
+  body.dropdown-sidebar .main-content {
+    margin: 0; }
+  /* line 102, /home/andrei/core-admin-release/core-admin/source/stylesheets/mixin_helpers.scss */
+  body.dropdown-sidebar .primary-sidebar {
+    width: auto; } }
+/* line 101, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+body.dropdown-sidebar .hide-dropdown-sidebar {
+  display: none; }
+/* line 105, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+body.dropdown-sidebar .hide-collapse-sidebar {
+  display: block; }
+/* line 109, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+body.dropdown-sidebar .primary-sidebar .nav {
+  margin-bottom: 0; }
+  /* line 112, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+  body.dropdown-sidebar .primary-sidebar .nav > li > a {
+    padding-left: 0;
+    text-align: center; }
+    /* line 116, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+    body.dropdown-sidebar .primary-sidebar .nav > li > a span {
+      display: block; }
+/* line 125, /home/andrei/core-admin-release/core-admin/source/stylesheets/navigation.scss */
+body.dropdown-sidebar .active .glow:after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  width: 0;
+  height: 5px;
+  left: 8px;
+  -webkit-box-shadow: -10px 0 15px 27px rgba(122, 171, 216, 0.15);
+  -moz-box-shadow: -10px 0 15px 27px rgba(122, 171, 216, 0.15);
+  box-shadow: -10px 0 15px 27px rgba(122, 171, 216, 0.15);
+  background: rgba(124, 190, 215, 0.2); }
